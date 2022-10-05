@@ -132,6 +132,7 @@
 			document.querySelector('#username').textContent = localStorage.getItem('user')
 	}
 	const renderChart = (res, type = 'markers') => {
+		if(key == 'std_day') continue;
 		days = [];
 		values =[];
 
